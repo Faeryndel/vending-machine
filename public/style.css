@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#app #product-list{
+    width: 500px;
+    height: 230px;
+    border: solid 1px red;
+}
+
+#app #coin-manager{
+    width: 290px;
+    border: solid 1px blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px;
+    height: 170px;
+}
+
+#app #coin-list button{
+    margin: 5px;
+}
+
+#app #product-list{
+    display: flex;
+}
+
+#app #product-list button{
+    margin: 15px;
+    width: 30%;
+    height: 200px;
+}
+
+#app #message{
+    padding: 10px 5px;
+}

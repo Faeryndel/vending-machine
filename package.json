@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  },
+  "name": "vending-machine",
+  "description": "1. Extract data from subject\r 2. Draw a first draft of the flow\r 3. Draw a simplified worflow that will give you a flow for each user action (will help for developpement)\r 4. Find out what is missing in the suject to organize your code or objects and avoid dead-ends",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [ 
+      "dist/index.js" 
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
