@@ -39,6 +39,16 @@ Next step is writting the programm
 1. NodeJS v18.17.1
 2. NPM v9.6.7
 3. Express v4.18.2
+4. Playwright `npm init playwright@latest`
+
+## Configuration playwright
+
+1. Tests end-to-end dans le dossier: tests.
+2. Ajout de githubactions workflow: no
+3. Install Playwright browsers (can be done manually via 'npx playwright install') ? Yes
+
+
+Run test with command :  `npx playwright test --ui`
 
 
 ## Start Server
@@ -47,12 +57,10 @@ Execute command `node index.js` in projet root folder
 
 Access app at [http://localhost:5000/ ]()
 
-
 ## Dev command
 
 1. `npx tsc` pour une compilation manuelle
 2. `npx tsc --watch` pour une compilation à la saisie
-
 
 ## What's left
 
